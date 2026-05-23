@@ -4,5 +4,6 @@ if __name__ == "__main__":
     print(arr)
     target = int(input("enter the target value"))
     for i in arr:
-        if i + j == target:
-            print(i + j)
+        for j in arr:
+            if i + j == target:
+                print(i + j)
